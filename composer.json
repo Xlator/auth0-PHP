@@ -21,6 +21,9 @@
     "josegonzalez/dotenv": "^2.0",
     "codeclimate/php-test-reporter": "^0.2.0"
   },
+  "provide": {
+      "auth0/auth0-php": "3.4.3"
+  }
   "autoload": {
     "psr-4": {
       "Auth0\\SDK\\": "src/"
